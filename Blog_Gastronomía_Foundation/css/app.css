@@ -1,0 +1,19 @@
+[class*="col"]{
+  
+}
+
+.historial{
+  text-decoration:none;
+  border-color: rgba(250, 128, 114,1);
+  color: rgba(250, 128, 114,1);
+}
+
+body {
+  background-image: url('../img/9.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.callout{
+  background-color: rgba(255, 255, 255, 0.4);
+}

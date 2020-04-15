@@ -1,0 +1,79 @@
+
+
+.form{
+  padding: 0;
+}
+
+.blog{
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.logo{
+  height: auto;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-item{
+  background-color: rgba(8, 45, 94, 0.95);
+  border-color: inherit;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 0px;
+}
+
+.redes-sociales {
+  margin-top: 8rem;
+}
+
+.img-social {
+  width: 3rem;
+  height: 3rem;
+}
+
+.busqueda{
+  margin-top: 1rem;
+}
+
+.img-post{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.historial{
+  text-decoration: none;
+  border-color: rgba(8, 45, 94, 1);
+  color: rgba(8, 45, 94, 1);
+  background-color: rgba(0, 0, 0, 0);;
+  border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+  /* Clase para ocultar componentes HTML */
+
+  .redes-sociales {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .img-social {
+    width: 4rem;
+    height: 4rem;
+  }
+
+}

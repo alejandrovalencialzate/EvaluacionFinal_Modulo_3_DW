@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <title>Blog Turismo | Evaluación Final</title>
+</head>
+
+<body>
+  <header class="row l12 s12  indigo darken-4 valign-wrapper">
+      <div class="col l10 m10 s12 barra-superior offset-l1 offset-m1 valign-wrapper ">
+<!--Primera columna Logotipo-->
+          <div class="col l2 m2 s4 valign-wrapper left" >
+              <a  href="#">
+                <img src="img/Logo_Turismo_Blanco.png" class="responsive-img valign-wrapper">
+              </a>
+          </div>
+<!--Segunda columna de la barra superior-->
+          <div class="col l10 m10 s8 valign-wrapper right">
+              <div class="col l12 m12 s12 hide-on-small-only right">
+              <div class="right">
+                <a class="btn black-text blue lighten-4"href="#"><i class="material-icons left">dashboard</i>Inicio</a>
+                <a class="btn black-text blue lighten-4"href="#"><i class="material-icons left">place</i>Destinos Visitados</a>
+                <a class="btn black-text blue lighten-4"href="#"><i class="material-icons left">grade</i>Mejores viajes</a>
+                <a class="btn black-text blue lighten-4"href="#"><i class="material-icons left">assignment_turned_in</i>Recomendaciones</a>
+              </div>
+              <div class="col l12 m6 s6 white-text">
+                <h6><b>¡TURISTA SIN RUMBO!</b></h6>
+              </div>
+            </div>
+
+            <div class="col l12 m6 s6 white-text hide-on-med-and-up show-on-small">
+              <h6><b>¡TURISTA SIN RUMBO!</b></h6>
+            </div>
+
+<!--Menú condensado en un solo botón visible solo en dispositivos móviles-->
+
+            <div class="col s6 show-on-small hide-on-med-and-up">
+              <ul id="dropdown" class="dropdown-content">
+                 <li>
+                     <a class="black-text"href="#"><i class="material-icons left">dashboard</i>Inicio</a>
+                 </li>
+                  <li>
+                    <a class="black-text"href="#"><i class="material-icons left">place</i>Destinos Visitados</a>
+                  </li>
+                  <li>
+                     <a class="black-text"href="#"><i class="material-icons left">grade</i>Mejores viajes</a>
+                  </li>
+                  <li>
+                     <a class="black-text" href="#"><i class="material-icons left">assignment_turned_in</i>Recomendaciones</a>
+                  </li>
+                </ul>
+                <a class = "btn dropdown-button red hide-on-med-and-up right" href = "#" data-activates = "dropdown"><i class="material-icons">menu</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+  <!--Primera columna de la sección-->
+  <section >
+    <div class="fixed-action-btn hide-on-large-only" style="bottom:3.125rem; right:3.125rem;">
+      <a class="btn-floating btn-large red"><i class="material-icons amber darken-4">share</i></a>
+      <ul>
+        <li><a class="btn-floating waves-effect waves-light red" ><i class="fa fa-facebook"></i></a></li>
+        <li><a class="btn-floating waves-effect waves-light red" ><i class="fa fa-twitter"></i></a></li>
+        <li><a class="btn-floating waves-effect waves-light red" ><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="btn-floating waves-effect waves-light red" ><i class="fa fa-pinterest"></i></a></li>
+        <li><a class="btn-floating waves-effect waves-light red" ><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="row l12">
+<!--Primera columna de la sección de enlaces para redes sociales-->
+      <div class="col l1 hide-on-med-and-down">
+        <div class="col l12">
+          <a class="btn-floating btn-large waves-effect waves-light red" style="margin-top:1rem;margin-bottom:1rem;"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="col l12">
+          <a class="btn-floating btn-large waves-effect waves-light red" style="margin-top:1rem;margin-bottom:1rem;"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="col l12">
+          <a class="btn-floating btn-large waves-effect waves-light red" style="margin-top:1rem;margin-bottom:1rem;"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="col l12">
+          <a class="btn-floating btn-large waves-effect waves-light red" style="margin-top:1rem;margin-bottom:1rem;"><i class="fa fa-pinterest"></i></a>
+        </div>
+        <div class="col l12">
+          <a class="btn-floating btn-large waves-effect waves-light red" style="margin-top:1rem;margin-bottom:1rem;"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+<!--Segunda columna de la sección de fotografias-->
+      <div class="col l11">
+        <div class="row l12">
+          <!--Primera columna de la tabla-->
+          <div class="col l4 m12 s12">
+              <img class="responsive-img valign z-depth-3" src="img/img1.jpg">
+              <img class="responsive-img valign z-depth-3" src="img/img2.jpg">
+              <img class="responsive-img valign z-depth-3" src="img/img3.jpg">
+          </div>
+          <!--Segunda columna de la tabla-->
+          <div class="col l4 m12 s12">
+              <img class="responsive-img valign z-depth-3" src="img/img9.jpg">
+          </div>
+          <!--Tercera columna de la tabla-->
+          <div class="col l4 m12 s12">
+              <img class="responsive-img valign z-depth-3" src="img/img4.jpg">
+              <img class="responsive-img valign z-depth-3" src="img/img5.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="row l12">
+      <div class="col l8 m8" >
+        <div class="col l12 white">
+
+          <div class="col l4 m4 s12" style="margin-top: 1rem">
+            <img class="responsive-img" src="img/img10.jpg" hspace="3" vspace="5" style="float: none;" />
+
+          </div>
+
+          <p>
+            <h4>Central Park, NYC</h4>
+            <a class="btn white-text grey" style="border-radius: 5rem;" href="#"><i class="material-icons right">insert_invitation</i>16 de Enero de 2017</a>
+            <a class="btn white-text grey" style="border-radius: 5rem;" href="#"><i class="material-icons right">location_on</i>New York, Estados Unidos</a>
+            <br><br>
+            El Central Park es un parque urbano público situado en el distrito metropolitano de Manhattan, en la ciudad de Nueva York, Estados Unidos. El parque tiene forma rectangular y dimensiones aproximadas de 4000 x 800 m, siendo más grande que dos de las naciones más pequeñas del mundo; es casi dos veces más grande que Mónaco y casi ocho veces más que la Ciudad del Vaticano.1​2​3​
+
+            Con unos 37,5 millones de visitantes al año, Central Park es el parque más visitado de los Estados Unidos4​ (aunque el Fairmount Park de Filadelfia es diez veces más grande, Central Park tiene 2,5 veces más visitantes,5​ y los 37,5 millones de visitantes anuales que recibe Central Park quintuplican los que visitan el Parque nacional del Gran Cañón, en Arizona6​). Además, su aparición en numerosas películas y en programas de televisión, lo ha convertido en uno de los parques urbanos más famosos del mundo.7​ El parque está dirigido por la Central Park Conservancy, una empresa privada sin ánimo de lucro, que tiene un contrato con el Departamento de Parques y Ocio de Nueva York.8​
+
+            Central Park limita por el norte con la 110th Street, por el oeste con la calle Central Park West, por el sur con la 59th Street y por el este con la Quinta Avenida. Los tramos de estas calles que pasan alrededor de Central Park son conocidas normalmente con el nombre de Central Park North, Central Park South y Central Park West, respectivamente; aunque la Quinta Avenida conserva su nombre a su paso por el lado este del parque.9​ Central Park tiene su propia sección censal en los Estados Unidos, la número 143. Según el Censo de 2000, la población del parque es de dieciocho personas, doce hombres y seis mujeres, con una media de edad de 38,5 años.10​ El actual valor inmobiliario de Central Park se estima que es de unos 528 783 552 000 dólares según la apreciación de Miller Samuel.11​
+          </p>
+        </div>
+        <div class="col l12 white">
+
+          <div class="col l4 m4 s12" style="margin-top: 1rem">
+            <img class="responsive-img" src="img/img6.jpg" hspace="3" vspace="5" style="float: none;" />
+          </div>
+
+          <p>
+            <h4>Londres</h4>
+            <a class="btn white-text grey" style="border-radius: 5rem;" href="#"><i class="material-icons right">insert_invitation</i>19 de Marzo de 2017</a>
+            <a class="btn white-text grey" style="border-radius: 5rem;" href="#"><i class="material-icons right">location_on</i>Londres, Inglaterra</a>
+            <br><br>
+            En esta ciudad multirracial convive gente de un gran número de culturas que hablan más de trescientos idiomas distintos. La Autoridad del Gran Londres estima que en 2015 la ciudad tiene 8,63 millones de habitantes, una cifra que la convierte en el municipio más poblado de la Unión Europea y que supone el 12,5 % del total de habitantes del Reino Unido. El área urbana del Gran Londres, con 10 470 00025​ habitantes, es la segunda más grande de Europa, pero su área metropolitana, con una población estimada de entre 12 y 14 millones, es la mayor del continente. Desde 1831 a 1925 Londres, como capital del Imperio británico, fue la ciudad más poblada del mundo.
+            Londres cuenta con cuatro enclaves declarados Patrimonio de la Humanidad: la Torre de Londres, el Real Jardín Botánico de Kew, el sitio formado por el Palacio, la Abadía de Westminster, la Iglesia de Santa Margarita y Greenwich (donde se encuentra el Real Observatorio que marca el meridiano de Greenwich y el tiempo medio). Otros lugares famosos de la ciudad son el Palacio de Buckingham, el London Eye, Piccadilly Circus, la Catedral de San Pablo, el Puente de la Torre o Trafalgar Square. Londres cuenta también con numerosos museos, galerías de arte, bibliotecas, eventos deportivos y otras instituciones culturales como el Museo Británico, la National Gallery, la Tate Modern, la Biblioteca Británica y los cuarenta teatros del West End. El metro de Londres, que en 2013 cumplió 150 años, es el más antiguo del mundo.
+          </p>
+        </div>
+      </div>
+
+        <!--Sección para el perfil del autor-->
+        <div class="col l4 m4 s12">
+          <div class="col l12 m12 s12 white">
+            <!--Fotografia del autor-->
+            <div class="row l12 m12 s12">
+              <div class="col l6 m6 s6 offset-l3 offset-m3 offset-s3">
+                <img class="circle responsive-img" style="margin-top: 1rem" src="img/autor.jpg"/>
+              </div>
+            </div>
+            <!--Perfil del autor-->
+            <div class="row l12 m12 s12 center">
+              <h5>Perfil del autor</h5>
+              <hr>
+              <p class="center">
+                  Soy un hombre emprendedor, me gustan los retos ya que pienso que éstos fortalecen la forma en la que nos dirigimos en el día a día. Gusto del estudio, soy autodidacta por naturaleza; pongo especial atención en detalles. Hago amigos fácilmente y no se me cierran las puertas ante una dificultad. Obsesivo con el orden y limpieza, altamente disciplinado ya que pienso que dichas cualidades forman la base del buen desempeño de cualquier actividad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--Sección para dejar un comentario-->
+    <section>
+
+      <div class="row">
+        <div class="col l12 m12 s12" style="margin-top: 1rem; margin-bottom: 1rem;">
+
+
+        <form>
+          <div class="col l8 m8 s12 blue lighten-4 ">
+            <h5>Deja tu comentario</h5>
+            <div class="row">
+              <div class="input-field col l6 m6 s12">
+                <input id="nombre" type="text" class="validate">
+                <label class="black-text right" for="email"><i class="material-icons left">account_circle</i>Nombre</label>
+              </div>
+              <div class="input-field col l6 m6 s12">
+                <input id="email" type="email" class="validate">
+                <label class="black-text right" for="email"><i class="material-icons left">email</i>E-mail</label>
+              </div>
+              <div class="input-field col l12 m12 s12">
+                 <textarea id="comentario" class=" materialize-textarea"></textarea>
+                 <label class="black-text right" for="comentario"><i class="material-icons left">mode_edit</i>Comentario</label>
+               </div>
+               <button class="btn waves-effect waves-light right" style="margin-bottom: 1rem" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
